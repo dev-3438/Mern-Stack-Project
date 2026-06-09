@@ -121,7 +121,7 @@ const addTodo = async (
       <TodoForm addTodo={addTodo} />
       <div className="mb-3">
         <strong>
-          Total Tasks: {todos.length}
+          Total Tasks: {todos.length} 
         </strong>
       </div>
       {todos.length === 0 ? (
@@ -141,5 +141,6 @@ const addTodo = async (
     </div>
   );
 }
+
 
 export default App
